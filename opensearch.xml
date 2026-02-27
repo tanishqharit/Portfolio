@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Tanishq Harit Portfolio</ShortName>
+  <Description>Search Tanishq Harit Portfolio</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://tanishqharit.github.io/Portfolio/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://tanishqharit.github.io/Portfolio/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://tanishqharit.github.io/Portfolio/opensearch.xml" />
+  <moz:SearchForm>https://tanishqharit.github.io/Portfolio/</moz:SearchForm>
+</OpenSearchDescription>
